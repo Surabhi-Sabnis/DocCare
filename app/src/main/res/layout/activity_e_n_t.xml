@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ENT">
+
+    <TextView
+        android:id="@+id/ENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Ear Nose Throat"
+        android:textColor="#47C5B9"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:text="Dr. Arvind Karmakar" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:text="Address: Chatrapati Nagar,Nagpur" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:text="Phone Number: +91-9900112233" />
+
+        <Button
+            android:id="@+id/Book5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Appointment"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Dr. Neeta Jog" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:text="Address: Manish Nagar,Nagpur" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:text="Phone Number: +91-9900112233" />
+
+        <Button
+            android:id="@+id/Book6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Appointment"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Dr. Prakash Deshpande" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:text="Address: Pratap Nagar,Nagpur" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:text="Phone Number: +91-9900112233" />
+
+        <Button
+            android:id="@+id/Book7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Appointment"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Dr. Seema Amte" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:text="Address: Gayatri Nagar,Nagpur" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:text="Phone Number: +91-9900112233" />
+
+        <Button
+            android:id="@+id/Book8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Appointment"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
